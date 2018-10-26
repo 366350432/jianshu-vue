@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  height: 1.25926rem;
+  padding: 0 0.44444rem;
+  line-height: 1.25926rem;
+  font-size: 0.44444rem;
+  border-bottom: 1px solid #ddd; }
+  .header h3 {
+    flex: 1; }
+    .header h3 span {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-top: 0.03704rem;
+      margin-left: 0.18519rem;
+      vertical-align: middle;
+      border-width: 0.14815rem;
+      border-style: solid;
+      border-color: #333 transparent transparent transparent; }
+  .header .iconfont {
+    width: 0.59259rem;
+    font-size: 0.59259rem;
+    margin-left: 0.59259rem; }
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding: 0 0.44444rem;
+  border-bottom: 1px solid #ddd; }
+  .item .logo {
+    width: 1.11111rem;
+    height: 1.11111rem; }
+    .item .logo img {
+      width: 100%;
+      border-radius: 0.11111rem; }
+  .item .content {
+    margin-left: 0.44444rem; }
+    .item .content .title {
+      display: flex;
+      height: 0.44444rem;
+      line-height: 0.44444rem;
+      font-size: 0; }
+      .item .content .title .circle {
+        align-self: center;
+        width: 0.25926rem;
+        height: 0.25926rem;
+        margin: 0 0.16667rem;
+        border-radius: 50%;
+        background-color: #4a9eff; }
+      .item .content .title .num {
+        font-size: 0.33333rem;
+        color: #999; }
+    .item .content h3 {
+      font-size: 0.44444rem; }
+    .item .content p {
+      margin-top: 0.16667rem;
+      font-size: 0.33333rem;
+      color: #999; }
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.33333rem;
+  text-align: center;
+  background-color: #fff;
+  border-top: 1px solid #ddd; }
+  .nav div {
+    flex: 1; }
+    .nav div .text {
+      margin-top: 0.07407rem; }
+    .nav div span {
+      display: inline-block;
+      width: 1.03704rem;
+      height: 1.03704rem;
+      font-size: 0.77778rem;
+      text-align: center;
+      line-height: 1.03704rem;
+      color: #fff;
+      border-radius: 50%;
+      background-color: #e78273; }
+  .nav .iconfont {
+    font-size: 0.64815rem; }

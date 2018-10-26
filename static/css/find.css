@@ -1,0 +1,94 @@
+a {
+  text-decoration: none; }
+
+.main-swiper {
+  width: 100%; }
+  .main-swiper a {
+    display: block;
+    width: 100%; }
+    .main-swiper a img {
+      width: 100%; }
+
+.category-swiper {
+  padding: 48px; }
+  .category-swiper .swiper-slide {
+    width: 2.77778rem;
+    height: 1.11111rem;
+    text-align: center;
+    line-height: 1.11111rem;
+    background-color: #ffba52;
+    border-radius: 0.11111rem; }
+    .category-swiper .swiper-slide a {
+      color: #fff; }
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 0.81481rem;
+  padding: 0 0.44444rem;
+  line-height: 0.81481rem; }
+  .title h3::before {
+    content: "";
+    display: inline-block;
+    width: 0.05556rem;
+    height: 0.33333rem;
+    margin-right: 0.2037rem;
+    vertical-align: middle;
+    background-color: #e68e7b; }
+  .title div {
+    color: #999; }
+  .title .iconfont {
+    font-size: 0.33333rem;
+    margin-right: 0.11111rem;
+    color: #999; }
+
+.themes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.44444rem;
+  margin-bottom: 0.18519rem; }
+  .themes a {
+    padding: 0.18519rem 0.27778rem;
+    margin-top: 0.27778rem;
+    margin-right: 0.27778rem;
+    border: 1px solid #e78e7b;
+    border-radius: 0.07407rem;
+    color: #e78e7b; }
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.77778rem;
+  padding: 0 0.44444rem;
+  border-bottom: 1px solid #ddd; }
+  .item .content .content-top {
+    height: 0.61111rem;
+    font-size: 0;
+    line-height: 0.61111rem; }
+    .item .content .content-top img {
+      height: 100%;
+      vertical-align: top;
+      border-radius: 50%; }
+    .item .content .content-top .author {
+      margin: 0 0.16667rem;
+      font-size: 0.33333rem; }
+    .item .content .content-top .time {
+      font-size: 0.2963rem;
+      color: #999; }
+  .item .content .content-title {
+    margin-top: 0.27778rem;
+    line-height: 140%;
+    font-size: 0.44444rem; }
+  .item .content .content-more {
+    margin-top: 0.2963rem;
+    color: #999;
+    font-size: 0.2963rem; }
+  .item .logo {
+    width: 2.22222rem;
+    height: 2.22222rem;
+    margin-left: 0.57407rem; }
+    .item .logo img {
+      width: 2.22222rem;
+      height: 2.22222rem;
+      border-radius: 0.05556rem; }
